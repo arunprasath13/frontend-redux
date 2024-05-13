@@ -6,7 +6,6 @@ import { incrementPro } from "../redux/counterSlice";
 import "./ProductCard.css";
 const ProductCard = () => {
   const productData = useSelector((state) => state.api.data);
-  // const loading = useSelector((state) => state.api.loading);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchApi());
@@ -20,7 +19,7 @@ const ProductCard = () => {
     <div className="cards">
       {productData.map((product) => {
         return (
-          <div className="card-container">
+          <div className="card-container" id={product.id}>
             <div className="product-img">
               <img src={product.image} />
             </div>

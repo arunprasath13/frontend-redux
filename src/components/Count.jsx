@@ -11,4 +11,4 @@ const Count = () => {
   )
 }
 
-export default Count
+export default Count;
