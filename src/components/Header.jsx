@@ -8,8 +8,14 @@ const Header = () => {
     <header>
       <h1 className="logo">Hotdeal</h1>
       <div className="cart">
-        <Link to="/cartPage"><IoCartOutline className="cart-img"/></Link>
-        <Count />
+        <div className="img">
+          <Link to="/cartPage">
+            <IoCartOutline className="cart-img" size="50px" />
+          </Link>
+        </div>
+        <div className="count">
+         <Count />
+        </div>
       </div>
     </header>
   );

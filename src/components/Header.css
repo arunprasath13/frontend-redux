@@ -12,3 +12,15 @@ header{
     height:20px;
     height:20px;
 }
+
+
+.img{
+    position: relative;
+}
+
+.count{
+    position: absolute;
+    top:25px;
+    right:40px;
+}
+

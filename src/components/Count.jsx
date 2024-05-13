@@ -5,7 +5,7 @@ import {useSelector } from "react-redux";
 const Count = () => {
  const count = useSelector((state) => state.count.count)
   return (
-    <div style={{color:"red"}}>
+    <div style={{color:"red",fontSize:"20px"}}>
       {count}
     </div>
   )
