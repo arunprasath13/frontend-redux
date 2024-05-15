@@ -22,7 +22,7 @@ const Cart = () => {
               <div className="cart__info">
                 <h2>{product.title}</h2>
                 <div className="">
-                  <p>{product.price}</p>
+                  <p style={{fontSize:"30px"}}>{product.price}</p>
                 </div>
               </div>
             </div>
